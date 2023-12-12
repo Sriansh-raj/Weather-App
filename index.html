@@ -5,11 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/Images/iconnn.png">
+    <title>Atmosferic</title>
 </head>
 
 <body>
+    <div class="weather-container">
+        <h1>Weather Forecast</h1>
+        <div class="location">
+            <input type="text" id="city" placeholder="Enter city">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div class="weather-info">
+            <p id="description"></p>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
